@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Game Page</title>
+  <link rel="stylesheet" href="gameStyle.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>CONECTOR LÓGICO "OR"</h1>
+  </header>
+  <main>
+    <p>Esta compuerta es una suma, que permite y compara dos estados: "SI" o "NO", "0" o "1", "Encendido" o "Apagado"
+      En este caso, tendrá un valor 0 SOLO si ambos estados son 0. Con uno solo que sea 1, el valor será 1.
+      Por ejemplo, si apagas ambos switches el bombillo estará apagado, pero con uno solo de los switches que este encendido, podrás encender el bombillo.
+    </p>
+    <div class="button-container">
+      <button id="button1" class="switch-button">
+        <img src="switch-off.png" alt="Switch 1">
+      </button>
+      <button id="button2" class="switch-button">
+        <img src="switch-off.png" alt="Switch 2">
+      </button>
+    </div>
+    <div id="lightbulb-container">
+      <img id="lightbulb-image" src="lightbulb-off.png" alt="Light Bulb">
+    </div>
+  </main>
+  <div id="waves"></div>
+  <script src="game.js"></script>
+</body>
+</html>

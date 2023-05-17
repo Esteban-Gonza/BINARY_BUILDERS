@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #58D68D;
+  }
+
+  .container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .info {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    text-align-last: center;
+  }
+  
+  .buttons {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .play-btn, .how-to-play-btn {
+    display: inline-block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    background-color: #00430F;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .play-btn:hover, .how-to-play-btn:hover {
+    background-color: #00430F;
+  }
+
+  #waves {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(creditsWave.svg);
+    background-size: cover;
+    z-index: -1;
+  }
